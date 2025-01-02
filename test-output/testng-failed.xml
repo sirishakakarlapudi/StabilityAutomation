@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stabilityFlow.Loginpage">
+      <class name="stabilityFlow.Department">
         <methods>
-          <include name="launchbrowser"/>
-          <include name="tearDown"/>
+          <include name="Step4_1_2"/>
+          <include name="Step4_2_3"/>
           <include name="browserLogin"/>
+          <include name="lp"/>
+          <include name="tearDown"/>
+          <include name="Step4_1_1"/>
         </methods>
-      </class> <!-- stabilityFlow.Loginpage -->
+      </class> <!-- stabilityFlow.Department -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
